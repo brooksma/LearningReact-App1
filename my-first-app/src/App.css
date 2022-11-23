@@ -1,3 +1,15 @@
+/* I love CSS, so all of this custom CSS here (and in-line CSS) 
+      is what I have created for the website, 
+      although I did take the color template from another website which is linked below!:)
+
+   Colors that look pretty together - Source: https://www.color-hex.com/color-palette/1019851
+    BLUE   #76a5af	(118,165,175)
+    GREEN  #93c47d	(147,196,125)
+    YELLOW #ffe599	(255,229,153)
+    PINK   #c27ba0	(194,123,160)
+    RED    #e06666	(224,102,102) 
+*/
+
 .card {
   margin: 1rem;
   font-size: calc(5px + 2vmin);
@@ -13,12 +25,54 @@ img {
   height: 200px;
   flex-direction: row;
   padding: 10px;
+  border-radius: 40px;
 }
 .header {
   font-size: calc(15px + 2vmin);
   font-weight: bold;
   padding: 2vh;
   display: flex;
+  background-color: #93c47d;
+  /* width: min-content; - Boxy logo in the top left ? a potential look*/
+  align-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-width: revert;
+  border-radius: 5px;
+  color: #93c47d;
+  background-color: black;
+  font-size: larger;
+  height: 30px;
+}
+
+.form-button {
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-width: revert;
+  border-radius: 11px;
+  color: #93c47d;
+  background-color: black;
+  font-size: larger;
+  height: 30px;
+  margin: 5px;
+}
+
+.form {
+  display: flex;
+  width: 98%;
+  justify-content: right;
 }
 
 .app {
@@ -27,11 +81,3 @@ img {
   flex-direction: column;
   align-items: flex-start;
 }
-
-/* Colors that look pretty together - Source: https://www.color-hex.com/color-palette/1019851
-    BLUE   #76a5af	(118,165,175)
-    GREEN  #93c47d	(147,196,125)
-    YELLOW #ffe599	(255,229,153)
-    PINK   #c27ba0	(194,123,160)
-    RED    #e06666	(224,102,102) 
-*/
