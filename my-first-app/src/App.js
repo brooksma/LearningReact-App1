@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+class GitHubCards extends React.Component {
+  // render function is the only required function for a React Component
+  // it returns the virtual DOM description of the component
+  render() {
+    return <div className="App-header">{this.props.title}</div>;
+  }
+}
+
+// Defining the same thing but with a variable
+// const GitHubCards = ({ title }) => <div className="App-header">{title}</div>;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <GitHubCards title="Madison's First React App" />;
 }
 
 export default App;
