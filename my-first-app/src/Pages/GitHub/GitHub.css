@@ -1,0 +1,66 @@
+.card {
+  margin: 1rem;
+  font-size: calc(5px + 2vmin);
+  display: flex;
+}
+.info {
+  display: inline-block;
+  margin: left 12px;
+  font-size: calc(5px + 2vmin);
+}
+img {
+  width: 200px;
+  height: 200px;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 40px;
+}
+.header {
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  padding: 2vh;
+  display: flex;
+  background-color: #93c47d;
+  color: white;
+  /* width: min-content; - Boxy logo in the top left ? a potential look*/
+  align-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-width: revert;
+  border-radius: 5px;
+  color: #93c47d;
+  background-color: black;
+  font-size: larger;
+  height: 30px;
+}
+
+.form-button {
+  align-items: center;
+  flex-direction: row;
+  border-style: solid;
+  border-width: revert;
+  border-radius: 11px;
+  color: #93c47d;
+  background-color: black;
+  font-size: larger;
+  height: 30px;
+  margin: 5px;
+}
+
+.form {
+  display: flex;
+  width: 98%;
+  justify-content: right;
+  align-items: center;
+}
